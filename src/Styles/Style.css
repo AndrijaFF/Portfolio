@@ -1,0 +1,86 @@
+/* ===== FONT ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* ===== GLOBAL ===== */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+  color: #212529;
+  scroll-behavior: smooth;
+  line-height: 1.6;
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  transition: background-color 0.4s ease-in-out;
+}
+
+.navbar-brand {
+  transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.05);
+}
+
+/* ===== BUTTONS ===== */
+.btn-outline-dark {
+  transition: all 0.3s ease-in-out;
+  border-radius: 50px;
+  padding: 0.6rem 1.4rem;
+}
+
+.btn-outline-dark:hover {
+  background-color: #212529;
+  color: #fff;
+}
+
+/* ===== CARD HOVER (Projects.jsx) ===== */
+.card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border: none;
+  border-radius: 1rem;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== ICONS IN SKILLS ===== */
+#skills i {
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+#skills i:hover {
+  transform: rotate(6deg) scale(1.15);
+}
+
+/* ===== CONTACT LINK HOVER ===== */
+#contact a {
+  transition: color 0.3s ease;
+}
+
+#contact a:hover {
+  color: #0d6efd;
+}
+
+/* ===== TIMELINE SEPARATORS ===== */
+.timeline hr {
+  border-top: 2px dashed #ccc;
+  width: 60%;
+  margin: 1.5rem auto;
+}
+
