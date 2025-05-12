@@ -28,11 +28,11 @@ export default function Skills() {
           ))}
           <div className="mt-4">
           <a
-  href="/TOMICAndrija.pdf"
-  className="btn btn-outline-dark"
-  download
->
-  <i className="bi bi-download me-2"></i>
+          href="./TOMICAndrija.pdf"
+          className="btn btn-outline-dark"
+          download
+          >
+          <i className="bi bi-download me-2"></i>
   Télécharger mon CV
 </a>
 </div>
