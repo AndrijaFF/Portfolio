@@ -21,7 +21,7 @@ const steps = [
   },
   {
     date: "2024 - 2025",
-    title: "Alternance - Free Pro (Protelco)",
+    title: "Alternance - Free - Protelco",
     location: "Développeur full-stack",
     description: "Refonte et développement d’outils internes pour les équipes techniques (PHP, JavaScript, MariaDB)."
   },
